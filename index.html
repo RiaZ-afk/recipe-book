@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Book</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🍳 Recipe Book</h1>
+        </header>
+        
+        <main class="recipe-container">
+            <div class="recipe-card" id="recipeCard">
+                <!-- Recipe content will be dynamically inserted here -->
+            </div>
+        </main>
+        
+        <nav class="navigation">
+            <button class="nav-btn" id="prevBtn" aria-label="Previous recipe">
+                <span>←</span> Previous
+            </button>
+            <div class="recipe-indicator">
+                <span id="recipeNumber">1</span> / <span id="totalRecipes">5</span>
+            </div>
+            <button class="nav-btn" id="nextBtn" aria-label="Next recipe">
+                Next <span>→</span>
+            </button>
+        </nav>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
